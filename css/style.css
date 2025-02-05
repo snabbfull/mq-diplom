@@ -242,7 +242,7 @@
 
 .trends-item-content-title {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
@@ -1388,8 +1388,27 @@ input[type="radio"]:checked::after {
     gap: 2px;
   }
 
+  .trends-item-content {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+
   .trends-item {
     width: calc((100% - 6px) / 4);
+    padding: 8px 11px;
+  }
+
+  .trends-item-content-title {
+    font-size: 15px;
+  }
+
+  .trends-item-content-list {
+    gap: 10px;
+  }
+
+  .trends-item-content-listitem {
+    font-size: 10px;
   }
 
   .content {
