@@ -242,7 +242,7 @@
 
 .trends-item-content-title {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
@@ -807,11 +807,14 @@
 
 .product-body {
   border: 3px solid #b59f5b;
-  padding: 27px 21px 0 21px;
+  padding: 27px 21px 27px 21px;
   margin-top: -29px;
   width: 347px;
   height: 267px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-title {
@@ -831,7 +834,6 @@
   font-weight: 400;
   margin-top: 17px;
   font-family: OpenSans, sans-serif;
-  margin-bottom: 23px;
 }
 
 .product-link {
@@ -848,6 +850,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  justify-self: end;
 }
 
 .product-price {
@@ -871,10 +874,6 @@
   color: #0f0d0e;
   font-weight: 700;
   font-family: OpenSans, sans-serif;
-}
-
-.product-footer {
-  padding-bottom: 25px;
 }
 
 .product-button {
@@ -1388,27 +1387,8 @@ input[type="radio"]:checked::after {
     gap: 2px;
   }
 
-  .trends-item-content {
-    width: 100%;
-    padding: 10px 10px;
-    box-sizing: border-box;
-  }
-
   .trends-item {
     width: calc((100% - 6px) / 4);
-    padding: 8px 11px;
-  }
-
-  .trends-item-content-title {
-    font-size: 15px;
-  }
-
-  .trends-item-content-list {
-    gap: 10px;
-  }
-
-  .trends-item-content-listitem {
-    font-size: 10px;
   }
 
   .content {
