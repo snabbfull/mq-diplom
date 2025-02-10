@@ -1397,6 +1397,18 @@ input[type="radio"]:checked::after {
     padding: 17px 12px;
   }
 
+  .trends-item-content-list {
+    gap: 10px;
+  }
+
+  .trends-item-content-listitem {
+    font-size: 10px;
+  }
+  
+  .trends-item-content-title {
+    font-size: 17px;
+  }
+
   .content {
     width: 100vw;
     padding: 30px 35px 0 35px;
