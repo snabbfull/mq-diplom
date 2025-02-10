@@ -1265,6 +1265,11 @@ input[type="radio"]:checked::after {
   .trends-item {
     width: calc((100% - 3px) / 2);
   }
+  
+  .trends-item-content-title {
+    font-size: 17px;
+    line-height: 22px;
+  }
 
   .content {
     width: 100vw;
@@ -1406,7 +1411,7 @@ input[type="radio"]:checked::after {
   }
   
   .trends-item-content-title {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .content {
